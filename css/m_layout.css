@@ -115,8 +115,8 @@ footer{
 footer > h2{padding:10px 0px;}
 footer > h2 img{max-width:200px;}
 
-/* pc버튼 서식 */
-.pc_btn{
+/* mobile버튼 서식 */
+.mb_btn{
   border:1px solid #808080;
   padding:4px 10px;
 }
