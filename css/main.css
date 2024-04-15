@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* 메인서식 main.css */
+.mySwiper{
+  position:relative;
+}
+.slide{width:100%;}
+.slide img{width:100%;}
+
+.c_wrap{
+  width:1025px;
+  margin:0px auto;
+  display:flex;
+  justify-content:space-between;
+}
+.c01{width:340px;}
+.c02{width:380px;}
+.c03{width:260px;}
+
+.c03 img{width: 400px; padding: 10px 0px 10px 0px;}
+
+
+section > h2{display:none;}
+
+/* 제목 */
+.news > h2, .news2 > h2, .rico > h2, .class_info > h2{
+  font-size:16px;
+  font-weight:500;
+  color:#525d9f;
+  border-bottom:1px solid #3834ad;
+  padding:15px 0px 10px 0px;
+}
+
+/* NEWS목록 서식 */
+.news ul{
+  display: flex;
+}
+.news ul li{text-align: center; line-height: 20px; letter-spacing: -1px;}
+.news ul li:hover{text-decoration: underline; color: #ff0}
+.news ul li a img{
+  padding: 3%;
+  width: 110px; height: 150px;
+}
+
+.title{font-weight: bold; color: #f00; font-size: 14px;}
+.title_name{font-weight: bold;}
+
+.news2 img{width:100px; padding: 10px;}
+.news2 div{transform: translate(140px, -160px); line-height: 20px; font-size: 14px;}
+
+.news2 div p:first-child{font-weight: 500;}
+.news2 div p:nth-child(2){font-weight: bold;}
+.news2 div p:nth-child(3){font-size: 10px;}
+.news2 div p:last-child{font-size: 12px; padding-top: 18px; color: #44157D; font-weight: bold;}
+
+.rico{padding-top:30px; line-height:20px;}
+
+.rico_p{color:#4DAC27; font-size: 12px; font-weight: 500; padding-top: 5px;}
+.rico div:last-child img{width: 120px; padding-right: 5px;}
+.rico div:last-child{display: flex; padding-top: 20px;}
+.rico figcaption{text-align: center; font-weight: bold;}
+
+
+/* 2단 중앙콘텐츠 서식 */
+.class_info{
+  width:320px;
+  margin:0 auto;
+  transform: translateY(-40px);
+}
+.class_info > ul{
+  padding-top: 20px;
+  display:grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, 85px);
+}
+.class_info > ul > li img{width: 109%;}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교보문고 홈페이지</title>
+    <!-- 파비콘 이미지 삽입하기 -->
+    <link href="./images/fR1rrrwM.ico" type="image/x-icon" rel="shortcut icon">
+
+    <!-- 1. 초기화 -->
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+
+    <!-- 2. 공통서식 -->
+    <link href="./css/common.css" rel="stylesheet" type="text/css">
+
+    <!-- 3. 모바일 레이아웃 -->
+    <link href="./css/m_layout.css" rel="stylesheet" type="text/css">
+
+    <!-- 4. 아이콘폰트 주소 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" type="text/css">
+
+    <!-- 5. 스와이퍼 슬라이드 -->
+    <link href="./css/swiper.css" rel="stylesheet" type="text/css">
+
+    <!-- 6. 모바일 메인페이지 서식 -->
+    <link href="./css/m_main.css" rel="stylesheet" type="text/css">
+  </head>
+<body>
+  <!-- 1. 상단헤더영역 -->
+  <header>
+    <h1>
+      <a href="index.html" title="메인페이지로 바로가기">
+        <img src="./images/logo.png" alt="상단로고">
+      </a>
+    </h1>
+
+    <input type="checkbox" id="toggle">
+
+    <!-- 전체메뉴 -->
+    <label for="toggle" class="t_btn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- 내비게이션 -->
+    <nav class="gnb">
+
+      <!-- 닫기버튼 -->
+      <label for="toggle" class="c_btn">
+        <i class="fas fa-times"></i>
+      </label>
+
+      <ul>
+        <li>
+          <label for="sub1">베스트<i class='fas fa-angle-down'></i></label>
+          <input type="checkbox" id="sub1">
+          <ul class="sub">
+            <li><a href="#" title="종합 베스트">종합 베스트</a></li>
+            <li><a href="#" title="온라인 베스트">온라인 베스트</a></li>
+            <li><a href="#" title="실시간 베스트">실시간 베스트</a></li> 
+            <li><a href="#" title="매장별 베스트">매장별 베스트</a></li>
+            <li><a href="#" title="인물 베스트">인물 베스트</a></li>
+            <li><a href="#" title="스테디셀러">스테디셀러</a></li>
+          </ul>
+        </li>
+        <li><label for="sub2">신상품<i class='fas fa-angle-down'></i></label>
+          <input type="checkbox" id="sub2">
+          <ul class="sub">
+            <li><a href="#" title="국내도서">국내도서</a></li>
+            <li><a href="#" title="외국도서">외국도서</a></li>
+            <li><a href="#" title="eBook">eBook</a></li>
+            <li><a href="#" title="sam">sam</a></li>
+            <li><a href="#" title="오디오북">오디오북</a></li>
+            <li><a href="#" title="핫트랙스">핫트랙스</a></li>
+            <li><a href="#" title="교보 ONLY">교보 ONLY</a></li>
+          </ul>
+        </li>
+        <li><label for="sub3">이벤트<i class='fas fa-angle-down'></i></label>
+          <input type="checkbox" id="sub3">
+          <ul class="sub">
+            <li><a href="#" title="출석체크">출석체크</a></li>
+            <li><a href="#" title="기대신간캘린더">기대신간캘린더</a></li>
+            <li><a href="#" title="이달의 콘텐츠">이달의 콘텐츠</a></li>
+            <li><a href="#" title="이달의 책">이달의 책</a></li>
+            <li><a href="#" title="당첨자 발표">당첨자 발표</a></li>
+          </ul>
+        </li>
+        <li><label for="sub4">국내도서<i class='fas fa-angle-down'></i></label>
+          <input type="checkbox" id="sub4">
+          <ul class="sub">
+            <li><a href="#" title="소설">소설</a></li>
+            <li><a href="#" title="시/에세이">시/에세이</a></li>
+            <li><a href="#" title="인문">인문</a></li>
+            <li><a href="#" title="가정/육아">가정/육아</a></li>
+            <li><a href="#" title="요리">요리</a></li>
+            <li><a href="#" title="건강">건강</a></li>
+            <li><a href="#" title="경제/경영">경제/경영</a></li>
+            <li><a href="#" title="자기계발">자기계발</a></li>
+            <li><a href="#" title="정치/사회">정치/사회</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="sub5">서양도서<i class='fas fa-angle-down'></i></label>
+          <input type="checkbox" id="sub5">
+          <ul class="sub">
+            <li><a href="#" title="문학">문학</a></li>
+            <li><a href="#" title="취미/실용/여행">취미/실용/여행</a></li>
+            <li><a href="#" title="생활/요리/건강">생활/요리/건강</a></li>
+            <li><a href="#" title="예술/건축">예술/건축</a></li>
+            <li><a href="#" title="인문/사회">인문/사회</a></li>
+            <li><a href="#" title="경제/경영">경제/경영</a></li>
+            <li><a href="#" title="과학/기술">과학/기술</a></li>
+            <li><a href="#" title="유아/아동/청소년">유아/아동/청소년</a></li>
+            <li><a href="#" title="한국관련도서">한국관련도서</a></li>
+          </ul>
+        </li>
+        <li><label for="sub6">일본도서<i class='fas fa-angle-down'></i></label>
+          <input type="checkbox" id="sub6">
+          <ul class="sub">
+            <li><a href="#" title="잡지">잡지</a></li>
+            <li><a href="#" title="엔터테인먼트">엔터테인먼트</a></li>
+            <li><a href="#" title="만화/애니">만화/애니</a></li>
+            <li><a href="#" title="문학">문학</a></li>
+            <li><a href="#" title="라이트노벨">라이트노벨</a></li>
+            <li><a href="#" title="문고">문고</a></li>
+            <li><a href="#" title="신서">신서</a></li>
+            <li><a href="#" title="아동">아동</a></li>
+            <li><a href="#" title="실용서/예술">실용서/예술</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <i class="fab fa-instagram-square"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-youtube"></i>
+    </nav>
+  </header>
+
+  <!-- 2. 메인콘텐츠영역 -->
+  <main>
+    <!-- 독립적인 콘텐츠 내용 -->
+    <article class="slide">
+      <h2>메인슬라이드</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h2>새 학기, 새 출발!<br>스티커 & 어린이 스터디 플래너</h2>
+            <img src="./images/m_banner_1.png" alt="슬라이드1">
+          </div>
+          <div class="swiper-slide">
+            <h2>교보 북멘토 선정<br>
+            이달의 추천 도서는?</h2>
+            <img src="./images/m_banner_2.png" alt="슬라이드2">
+          </div>
+          <div class="swiper-slide">
+            <h2>북메이트와 함께읽는 책<br>지원금&청룡양말 세트</h2>
+            <img src="./images/m_banner_3.png" alt="슬라이드3">
+          </div>
+        </div>
+        <!-- 콘트롤 버튼 -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </article>
+
+    <!-- 메인내비게이션 -->
+    <nav class="m_gnb">
+      <ul>
+        <li>
+          <a href="#" title="오늘의 선택">
+            <span class="simg">&nbsp;</span>
+            <span class="mnu">오늘의 선택</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="책 그리고 꽃">
+            <span class="simg">&nbsp;</span>
+            <span class="mnu">책 그리고 꽃</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="인물&작품">
+            <span class="simg">&nbsp;</span>
+            <span class="mnu">인물&작품</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="선물하기">
+            <span class="simg">&nbsp;</span>
+            <span class="mnu">선물하기</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="바로드림">
+            <span class="simg">&nbsp;</span>
+            <span class="mnu">바로드림</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="베스트리뷰">
+            <span class="simg">&nbsp;</span>
+            <span class="mnu">베스트리뷰</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="오시는 길">
+            <span class="simg">&nbsp;</span>
+            <span class="mnu">오시는 길</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <article class="info">
+      <h2><i class="fa-solid fa-phone"></i>고객센터</h2>
+      <p class="tel">
+        <a href="tel:02-0000-0000" title="전화통화">02-0000-0000</a>
+      </p>
+      <p>평일 09:00 ~ 18:00</p>
+      <p>주말 및 공휴일 휴무</p>
+    </article>
+  </main>
+
+  <!-- 3. 푸터영역 -->
+  <footer>
+    <h2>
+      <a href="index.html" title="메인페이지로 바로가기">
+        <img src="./images/logo.png" alt="하단로고">
+      </a>
+    </h2>
+    <a href="index.html?move_pc_screen=1" title="PC버전보기" class="pc_btn">PC버전보기</a>
+    <a href="#" title="페이지 상단으로 바로가기" class="t_btn">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </footer>
+  <address>
+  <p>교보문고 &#x007C; 대표:000 &#x007C;
+    사업자번호:000-00-00000</p>
+  <p>대표전화:012-345-6789 &#x007C;주소:000 000 00</p>
+  <p>copyright&copy;2024 교보문고 allrights reserved.</p>
+  </address>
+
+  <!-- 스와이퍼슬라이드 스크립트 -->
+  <script src="./script/swiper.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper",{
+      spaceBetween:0,
+      effect:"fade",
+      centerSlide:true,
+      autoplay:{
+        delay:2500,
+        disableOnInteraction:false,
+      },
+      pagination:{
+        el:".swiper-pagination",
+        clickable:true,
+      },
+    });
+  </script>
+</body>
+</html>
